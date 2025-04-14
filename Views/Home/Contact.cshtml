@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<section class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="text-center mb-5">
+                <h1 class="display-4">💬 Contact Us</h1>
+                <p class="lead text-muted">We’d love to hear from you! Please fill out the form below and we’ll get back to you as soon as possible.</p>
+            </div>
+
+            <form method="post">
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="Name" name="Name" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="Subject" name="Subject" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="Message" class="form-label">Message</label>
+                    <textarea class="form-control" id="Message" name="Message" rows="5" required></textarea>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
