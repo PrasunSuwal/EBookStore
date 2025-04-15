@@ -1,0 +1,23 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore database files
+*.dbmdl
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.swp
+*.tmp
+*.bak
+
+# Ignore VS Code config
+.vscode/

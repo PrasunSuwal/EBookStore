@@ -1,0 +1,9 @@
+.vs/
+*.user
+*.suo
+*.sln.docstates
+bin/
+obj/
+*.dbmdl
+*.log
+.vscode/
